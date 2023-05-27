@@ -1,0 +1,63 @@
+.container{
+    justify-content: space-between;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+}
+
+.navbar-nav{
+    float: right;
+    margin-left: 500px;
+}
+
+.nav-link{
+    margin-right: 60px;
+    font-size: larger;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    font-size: small;   
+}
+
+.title{
+    box-sizing: border-box;
+    height: 150px;
+    width: 75%;
+    max-width: 900px;
+    margin-top: 80px;
+    margin-left: 15%;
+    border: none;
+    background-color:#335DFF;    
+}
+
+.title-word{
+    margin-left:33%;
+    padding-top: 45px;
+    color: white; 
+}
+
+.inputarea{
+    margin-top: 100px;
+    margin-left: 15%;
+    
+}
+
+#name{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.result{
+    margin-left: 15%;
+    border: 1px solid;
+    margin-top: 100px;
+    width: 600px;
+    height: 100px;
+}
